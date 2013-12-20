@@ -1,6 +1,7 @@
 require 'spec_helper'
 
 describe User do
+<<<<<<< HEAD
 
   before do
     @user = User.new(name: "Example User", email: "user@example.com",
@@ -108,3 +109,7 @@ describe "with a password that's too short" do
     end
   end
 end
+=======
+  pending "add some examples to (or delete) #{__FILE__}"
+end
+>>>>>>> modeling-users
